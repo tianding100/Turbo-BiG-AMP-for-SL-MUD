@@ -4,7 +4,7 @@ This project includes MATLAB codes of Turbo-BiG-AMP algorithm.
 
 In [1], we study the multiuser detection (**MUD**) problem for a grant-free massive-device multiple access (**MaDMA**) system. Two MUD schemes, termed random sparsity learning multiuser detection (**RSL-MUD**) and structured sparsity learning multiuser detection (**SSL-MUD**) are presented for time-slotted and non-time-slotted scenarios, respectively. We put forth a new algorithm termed turbo bilinear generalized approximate message passing (**Turbo-BiG-AMP**) to blindly detect user data without any prior knowledge of the identities and the channel state information (CSI) of the active users.
 
-This project provides a MATLAB implementation of the Turbo-BiG-AMP algorithm, both for RSL-MUD (time-slotted) and SSL-MUD (non-time-slotted). Note that an important component of Turbo-BiG-AMP is the dictionary algorithm BiG-AMP [2], and some of the core modules are modified from the BiG-AMP implementation of [2]. The original codes of BiG-AMP can be found in [[BiG-AMP]](http://www2.ece.ohio-state.edu/~schniter/BiGAMP/download.html).
+This project provides a MATLAB implementation of the Turbo-BiG-AMP algorithm, both for RSL-MUD (time-slotted) and SSL-MUD (non-time-slotted). Note that an important component of Turbo-BiG-AMP is the dictionary learning algorithm BiG-AMP [2], and some of the core modules are modified from the BiG-AMP implementation of [2]. If you're interested in the original BiG-AMP algorithm, please see [[BiG-AMP]](http://www2.ece.ohio-state.edu/~schniter/BiGAMP/download.html).
 
 #### Main Scripts
 
